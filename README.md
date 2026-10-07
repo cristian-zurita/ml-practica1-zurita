@@ -19,4 +19,5 @@ reducción dimensional y evaluación del rendimiento de los modelos.
 - `data/processed/`: datos procesados y transformados.
 - `notebooks/`: análisis exploratorio y experimentación.
 - `src/`: código fuente reutilizable en Python.
+- `reports/`: reportes y analisis de los resultados obtenidos al ejecutar codigo de 'src/'.
 - `models/`: modelos de Machine Learning entrenados.
