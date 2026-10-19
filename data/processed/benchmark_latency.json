@@ -1,0 +1,32 @@
+{
+    "benchmark": {
+        "predictions_per_model": 100,
+        "unit": "milliseconds per individual prediction",
+        "models": {
+            "Random Forest": {
+                "predictions": 100,
+                "average_ms": 10.070200130003286,
+                "median_ms": 10.006686499991702,
+                "min_ms": 9.403507000115496,
+                "max_ms": 11.778350999975373
+            },
+            "SVM": {
+                "predictions": 100,
+                "average_ms": 1.2887768100063113,
+                "median_ms": 1.2509410000802745,
+                "min_ms": 1.1710750000020198,
+                "max_ms": 1.6202960000555322
+            },
+            "K-Means": {
+                "predictions": 100,
+                "average_ms": 1.1474356400049146,
+                "median_ms": 1.099584500138917,
+                "min_ms": 1.0317139999642677,
+                "max_ms": 1.4524079999773676
+            }
+        }
+    },
+    "notes": {
+        "DBSCAN": "No se incluye en la medición de inferencia porque la implementación utilizada no dispone de predict() para nuevas observaciones."
+    }
+}
