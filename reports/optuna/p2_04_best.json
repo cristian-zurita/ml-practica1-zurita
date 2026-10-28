@@ -1,0 +1,23 @@
+{
+  "sesion": "P2-4",
+  "study_name": "p2_04_rf_f1",
+  "objetivo": "maximizar F1 positivo en validación",
+  "umbral_fijo": 0.35,
+  "n_trials_ejecucion": 25,
+  "n_trials_totales": 25,
+  "mejor_f1_validacion": 1.0,
+  "mejor_numero_trial": 0,
+  "mejores_hiperparametros": {
+    "n_estimators": 150,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 5,
+    "max_features": "log2",
+    "class_weight": null
+  },
+  "random_state": 42,
+  "filas_entrenamiento": 3273,
+  "filas_validacion": 1091,
+  "filas_prueba_reservadas": 1092,
+  "estudio_sqlite": "/mnt/DiscoD/U/MachineLearning/ml-practica1-zurita/reports/optuna/p2_04_estudio.db"
+}
