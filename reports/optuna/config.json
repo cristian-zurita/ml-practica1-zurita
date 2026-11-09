@@ -1,0 +1,22 @@
+{
+  "sesion": "P2-5",
+  "modelo": "RandomForestClassifier",
+  "clase_positiva": "Slight-Left-Turn",
+  "umbral_decision": 0.35,
+  "random_state": 42,
+  "hiperparametros": {
+    "n_estimators": 150,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 5,
+    "max_features": "log2",
+    "class_weight": null
+  },
+  "optimizacion": {
+    "estudio": "p2_04_rf_f1",
+    "objetivo": "F1 clase positiva en validación",
+    "mejor_trial": 0,
+    "mejor_f1_validacion": 1.0,
+    "ensayos_completos": 25
+  }
+}
